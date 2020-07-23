@@ -1,7 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Button } from 'react-bootstrap';
+import React from "react";
+import "./App.css";
+import { Button } from "react-bootstrap";
 
 function App() {
   return (
