@@ -22,6 +22,18 @@
   flex-direction: column;
 }
 
+.Formulario {
+  background-color: #969ba1;
+  border-radius: 4%;
+  width: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  margin-left: 5%;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

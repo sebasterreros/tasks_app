@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Spinners from "./Components/Spinner";
+import Inicio from "./Components/inicio";
 
 class App extends React.Component {
   constructor() {
@@ -25,7 +26,7 @@ class App extends React.Component {
     } else {
       return (
         <div className="App">
-          <h1>Bienvenido a la aplicacion</h1>
+          <Inicio />
         </div>
       );
     }
