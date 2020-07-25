@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import Spinners from "./Components/Spinner";
-import Inicio from "./Components/inicio";
-import Inicio2 from "./Components/form2"
+import Form1 from "./Components/Form1";
+import Inicio2 from "./Components/form2";
 
 class App extends React.Component {
   constructor() {
@@ -26,12 +26,12 @@ class App extends React.Component {
       );
     } else {
       return (
-        <div className ="div">
+        <div className="div">
           <h1>Bienvenidos a la App de Usuarios</h1>
           <div className="principal">
             <div className="App container">
               <div>
-                <Inicio />
+                <Form1 />
               </div>
               <div>
                 <Inicio2 />
@@ -43,12 +43,5 @@ class App extends React.Component {
     }
   }
 }
-// function App() {
-//   return (
-//     <div className="App">
-//       <Spinners />
-//     </div>
-//   );
-// }
 
 export default App;
