@@ -11,7 +11,7 @@ class spinners extends React.Component {
   render() {
     return (
       <div className="spinner">
-        <RingLoader color="#006aff" size="80" />
+        <RingLoader color="#f4f400" size="800" />
         <h3>Cargando</h3>
       </div>
     );

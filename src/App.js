@@ -26,7 +26,7 @@ class App extends React.Component {
       );
     } else {
       return (
-        <div className="div">
+        <div className ="div">
           <h1>Bienvenidos a la App de Usuarios</h1>
           <div className="principal">
             <div className="App container">
